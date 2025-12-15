@@ -42,7 +42,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 # ── Git / updates ──────────────────────────────────────────────────────────────
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/BtwSiya/hhhh")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN")  # needed if repo is private
 
@@ -79,9 +79,9 @@ STICKERS = [
     "CAACAgUAAx0Cd6nKUAACATJl_rsEJOsaaPSYGhU7bo7iEwL8AAPMDgACu2PYV8Vb8aT4_HUPHgQ",
 ]
 HELP_IMG_URL = "https://files.catbox.moe/yg2vky.jpg"
-PING_VID_URL = "https://files.catbox.moe/3ivvgo.mp4"
+PING_VID_URL = "https://ar-hosting.pages.dev/1765780495640.mp4"
 PLAYLIST_IMG_URL = "https://files.catbox.moe/yhaja5.jpg"
-STATS_VID_URL = "https://telegra.ph/file/e2ab6106ace2e95862372.mp4"
+STATS_VID_URL = "https://ar-hosting.pages.dev/1765780495640.mp4"
 TELEGRAM_AUDIO_URL = "https://files.catbox.moe/mlztag.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/tiss2b.jpg"
 STREAM_IMG_URL = "https://files.catbox.moe/1d3da7.jpg"
