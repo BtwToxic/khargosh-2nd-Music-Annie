@@ -16,7 +16,7 @@ OWNER_ID = 7284147034
 OWNER_USERNAME = "khargyushh"
 BOT_USERNAME = "CloudBerryxRobot"
 BOT_NAME = "Ⲙᴜsιᴄ"
-ASSUSERNAME = getenv("ASSUSERNAME", "musicxannie")
+ASSUSERNAME = "CloudberryxAssist"
 
 # ── Database & logging ─────────────────────────────────────────────────────────
 MONGO_DB_URI = "mongodb+srv://Krishna:pss968048@cluster0.4rfuzro.mongodb.net/?retryWrites=true&w=majority"
@@ -32,9 +32,9 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "30"))
 
 # ── External APIs ──────────────────────────────────────────────────────────────
 COOKIE_URL = getenv("COOKIE_URL")  # required (paste link)
-API_URL = getenv("API_URL")        # optional
+API_URL = "https://tgmusic.fallenapi.fun"      # optional
 VIDEO_API_URL = getenv("VIDEO_API_URL")  # optional
-API_KEY = getenv("API_KEY")        # optional
+API_KEY = "03fa6c_ZCX7ZndMsQluD2Vth4suaZr41_TTqoaO"      # optional
 DEEP_API = getenv("DEEP_API")      # optional
 
 # ── Hosting / deployment ───────────────────────────────────────────────────────
