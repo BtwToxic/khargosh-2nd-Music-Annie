@@ -31,7 +31,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1280008490189")
 PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "30"))
 
 # ── External APIs ──────────────────────────────────────────────────────────────
-COOKIE_URL = getenv("COOKIE_URL")  # required (paste link)
+COOKIE_URL = "https://pastebin.com/cGVgq7FE" # required (paste link)
 API_URL = "https://tgmusic.fallenapi.fun"      # optional
 VIDEO_API_URL = getenv("VIDEO_API_URL")  # optional
 API_KEY = "03fa6c_ZCX7ZndMsQluD2Vth4suaZr41_TTqoaO"      # optional
